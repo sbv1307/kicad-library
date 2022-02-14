@@ -8,7 +8,7 @@ This repository stores common [symbols](symbols), [footprints](footprins), [3D m
 
 Exanple:
 ```Bash
-git submodule add <repository> hardware/library
+git submodule add https://github.com/sbv1307/kicad-library.git hardware/library
 ```
 ## To update the local KiCad library:
 
