@@ -16,3 +16,7 @@ _autosave-*
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
+
+# As this project is about managing local KiCad libraries, all KiCad project files will be ignored.
+
+kicad-library
