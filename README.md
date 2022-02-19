@@ -2,13 +2,13 @@
 This repository stores common [symbols](symbols), [footprints](footprins), [3D models](3d_models) and [datasheets](datasheets) used in KiCad projects
 
 ## To include the libraries in a KiCad project, use [git submodule](https://git-scm.com/docs/git-submodule) use:
-###### Note: The following assume that KiCad project files are located in a folder called "hardware" in the following filestructure. ../project name/hardware
+###### Note: The following assume that KiCad project files are located in a folder called "hardware" in the following filestructure. ../project name/Hardware
 ```Bash
-git submodule add https://github.com/sbv1307/kicad-library.git hardware/library
+git submodule add https://github.com/sbv1307/kicad-library.git Hardware/library
 ```
 ## To update the local KiCad library i a project use:
 ```Bash
-git add submodule update --remote hardware/library
+git submodule uppdate --remote Hardware/library
 ```
 
 # To modify Libraries (checklist):
