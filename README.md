@@ -8,7 +8,7 @@ git submodule add https://github.com/sbv1307/kicad-library.git Hardware/library
 ```
 ## To update the local KiCad library i a project use:
 ```Bash
-git submodule uppdate --remote Hardware/library
+git submodule update --remote Hardware/library
 ```
 
 # To modify Libraries (checklist):
