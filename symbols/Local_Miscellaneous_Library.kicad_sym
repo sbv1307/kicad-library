@@ -1983,7 +1983,7 @@
     (property "Value" "PC817" (id 1) (at 0 5.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_DIP:DIP-4_W7.62mm" (id 2) (at -5.1816 -7.5184 0)
+    (property "Footprint" "Local_Misckllaneous_Library:DIP-4_W7.62mm_Slim" (id 2) (at -5.1816 -7.5184 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
     (property "Datasheet" "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" (id 3) (at -15.0368 -7.5692 0)
