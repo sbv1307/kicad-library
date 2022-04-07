@@ -1,6 +1,6 @@
 (footprint "PinHeader_1x03_P_5mm_Vertical-(F.Mount)" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 623C3AD1)
+  (tedit 624F4EDF)
   (descr "Through hole straight pin header, 1x06, 0,1in pitch, single row")
   (tags "Through hole pin header THT 1x06 2.54mm 1 in single row")
   (attr through_hole)
@@ -28,7 +28,7 @@
   (fp_line (start 2 12) (end -2 12) (layer "F.Fab") (width 0.1) (tstamp fb6c72eb-3771-4ea7-8a27-21ff7c589b7f))
   (fp_line (start 2 -2) (end 2 12) (layer "F.Fab") (width 0.1) (tstamp fefe2f15-09ed-49c1-bd41-0906cbab46b4))
   (pad "1" thru_hole rect (at 0 0) (size 3.5 3.5) (drill 1.5) (layers *.Cu *.Mask) (tstamp 4644ddbe-d983-44c3-a51a-73bf945d795e))
-  (pad "2" thru_hole circle (at 0 5) (size 3.5 3.5) (drill 1.5) (layers *.Cu *.Mask "B.SilkS") (tstamp d35c4ee5-b52b-43eb-a334-09fe15346a9e))
+  (pad "2" thru_hole circle (at 0 5) (size 3.5 3.5) (drill 1.5) (layers *.Cu *.Mask) (tstamp d35c4ee5-b52b-43eb-a334-09fe15346a9e))
   (pad "3" thru_hole circle (at 0 10) (size 3.5 3.5) (drill 1.5) (layers *.Cu *.Mask) (tstamp eb4881ec-9235-42d2-bc80-a512598c9f6b))
   (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.wrl"
     (offset (xyz 0 0 0))
