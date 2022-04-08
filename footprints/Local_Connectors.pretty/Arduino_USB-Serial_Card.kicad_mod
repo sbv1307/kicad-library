@@ -1,6 +1,6 @@
 (footprint "Arduino_USB-Serial_Card" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 624F51C7)
+  (tedit 6250167B)
   (descr "Through hole straight pin header, 1x06, 0,1in pitch, single row")
   (tags "Through hole pin header THT 1x06 2.54mm 1 in single row")
   (attr through_hole)
@@ -73,6 +73,20 @@
   (pad "4" thru_hole oval (at 4 -16.7) (size 2 2) (drill 1) (layers *.Cu *.Mask) (tstamp 55baceed-f7d9-4d73-84e4-b06c780623b7))
   (pad "5" thru_hole oval (at 4 -20.7) (size 2 2) (drill 1) (layers *.Cu *.Mask) (tstamp b75ad8c5-9f55-49ef-9af8-7ab1b11ab9d4))
   (pad "6" thru_hole oval (at 0 -20.7) (size 2 2) (drill 1) (layers *.Cu *.Mask) (tstamp 9c162611-d326-45c2-97a0-d5c1a6e19742))
+  (zone (net 0) (net_name "") (layers F&B.Cu) (tstamp 8bc1dd98-9f40-42f0-9878-acc067ccb088) (name "Arduino_USB-Serial") (hatch edge 0.508)
+    (connect_pads (clearance 0))
+    (min_thickness 0.254)
+    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed ) (copperpour not_allowed) (footprints not_allowed))
+    (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 2.3 -5.3)
+        (xy 1.9 -5.3)
+        (xy 1.9 -15.3)
+        (xy 2.3 -15.3)
+      )
+    )
+  )
   (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
