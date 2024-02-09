@@ -2,7 +2,7 @@
 This repository stores common [symbols](symbols), [footprints](footprins), [3D models](3d_models) and [datasheets](datasheets) used in KiCad projects under https://github.com/sbv1307
 
 
-## To include the libraries in a KiCad project, use [git submodule](https://git-scm.com/docs/git-submodule) use:
+## To include the libraries in a KiCad project, using [git submodule](https://git-scm.com/docs/git-submodule) use:
 ###### Note: The following assume that KiCad project files are located in a folder called "hardware" in the following filestructure. ../project name/Hardware
 ```Bash
 git submodule add https://github.com/sbv1307/kicad-library.git Hardware/library
@@ -15,7 +15,7 @@ git submodule update --remote Hardware/library
 # To modify Libraries (checklist):
 
 1 Open KiCad project: ..\Projects\kicad-library\kicad-library\kicad-library.kicad_pro
-###### Note: This project is an empty project and projectfiles will not be tracked by GIT 
+###### Note:&emsp; This project is an empty project and projectfiles will not be tracked by GIT. <br>&emsp;&emsp;&emsp;&emsp;Remember! in Preferences -> Configure Path... insert: <br>&emsp;&emsp;&emsp;&emsp;KICAD_LOCAL_SYMBOL_DIR = <br>&emsp;&emsp;&emsp;&emsp;C:\Users\Steen\Documents\3 - My OTHER  documents\Projects\kicad-library\symbols <br>&emsp;&emsp;&emsp;&emsp;and <br>&emsp;&emsp;&emsp;&emsp;KICAD_LOCAL_DATASHEETS =<br>&emsp;&emsp;&emsp;&emsp;C:\Users\Steen\Documents\3 - My OTHER  documents\Projects\kicad-library\datasheets
 
 2 Make modifications to the Library and exit KiCad
 
