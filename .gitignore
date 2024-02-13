@@ -20,5 +20,6 @@ fp-info-cache
 # As this project is about managing local KiCad libraries, all KiCad project files will be ignored.
 
 kicad-library
+github
 *.ods
 *#
