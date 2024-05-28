@@ -1,1393 +1,3938 @@
-(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
-  (symbol "4_DIP_R1.8K" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "RN" (id 0) (at -7.62 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "4_DIP_R1.8K" (id 1) (at 5 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_local:RES-ARRAY-SMD_0603-8P-L3.2-W1.6-BL" (id 2) (at 7.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810170730_UNI-ROYAL-Uniroyal-Elec-4D03WGJ0182T5E_C11989.pdf" (id 3) (at 7.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "4 ±5% 8 1.8kΩ 1/16W ±200ppm/℃ 1206 Resistor Networks & Arrays ROHS" (id 4) (at 7.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LibPart" "Local_Device_Library:4_DIP_R1.8K" (id 5) (at 7.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isFirstLevel=true&firstName=Resistors" (id 6) (at 7.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C11989" (id 7) (at 7.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Basic or Extended" "Extended Part" (id 8) (at 7.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)" (id 9) (at 7.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR. Part #" "4D03WGJ0182T5E" (id 10) (at 7.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Category" "Resistors" (id 11) (at 7.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Famely" "Resistor Network & Arrays" (id 12) (at 7.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Excluded from BOM" "NO" (id 13) (at 7.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "4 ±5% 8 1.8kΩ 1/16W ±200ppm/℃ 1206 Resistor Networks & Arrays ROHS" (id 14) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "DIP* SOIC*" (id 15) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "4_DIP_R1.8K_0_1"
-      (rectangle (start -6.35 -2.413) (end 3.81 2.413)
-        (stroke (width 0.254) (type default) (color 0 0 0 0))
-        (fill (type background))
-      )
-      (rectangle (start -5.715 1.905) (end -4.445 -1.905)
-        (stroke (width 0.254) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (rectangle (start -3.175 1.905) (end -1.905 -1.905)
-        (stroke (width 0.254) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (rectangle (start -0.635 1.905) (end 0.635 -1.905)
-        (stroke (width 0.254) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -5.08 -2.54)
-          (xy -5.08 -1.905)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -5.08 1.905)
-          (xy -5.08 2.54)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 -2.54)
-          (xy -2.54 -1.905)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 1.905)
-          (xy -2.54 2.54)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 -2.54)
-          (xy 0 -1.905)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 1.905)
-          (xy 0 2.54)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 -2.54)
-          (xy 2.54 -1.905)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 1.905)
-          (xy 2.54 2.54)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (rectangle (start 1.905 1.905) (end 3.175 -1.905)
-        (stroke (width 0.254) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "4_DIP_R1.8K_1_1"
-      (pin passive line (at -5.08 -5.08 90) (length 2.54)
-        (name "R1.1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 -5.08 90) (length 2.54)
-        (name "R2.1" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -5.08 90) (length 2.54)
-        (name "R3.1" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 2.54 -5.08 90) (length 2.54)
-        (name "R4.1" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 2.54 5.08 270) (length 2.54)
-        (name "R4.2" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 5.08 270) (length 2.54)
-        (name "R3.2" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 5.08 270) (length 2.54)
-        (name "R2.2" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 5.08 270) (length 2.54)
-        (name "R1.2" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "C100nf" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "C100nf" (id 1) (at 0.635 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (id 2) (at -3.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191219_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf" (id 3) (at -3.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS" (id 4) (at -3.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LibPart" "Local_Device_Library:C100nf" (id 5) (at -3.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isFirstLevel=true&firstName=Capacitors" (id 6) (at -3.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C1525" (id 7) (at -3.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Basic or Extended" "Basic Part" (id 8) (at -3.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Samsung Electro-Mechanics" (id 9) (at -3.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR. Part #" "CL05B104KO5NNNC" (id 10) (at -3.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Category" "Capacitors" (id 11) (at -3.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Famely" "Ceramic Capacitors" (id 12) (at -3.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Excluded from BOM" "NO" (id 13) (at -3.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "cap capacitor" (id 14) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Unpolarized capacitor 100nF, 50V, SMD C_0402" (id 15) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "C_*" (id 16) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "C100nf_0_1"
-      (polyline
-        (pts
-          (xy -2.032 -0.762)
-          (xy 2.032 -0.762)
-        )
-        (stroke (width 0.508) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.032 0.762)
-          (xy 2.032 0.762)
-        )
-        (stroke (width 0.508) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "C100nf_1_1"
-      (pin passive line (at 0 3.81 270) (length 2.794)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -3.81 90) (length 2.794)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "C10nf" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "C10nf" (id 1) (at 0.635 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (id 2) (at -3.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191223_Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.pdf" (id 3) (at -3.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "50V 10nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS" (id 4) (at -3.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LibPart" "Local_Device_Library:C10nf" (id 5) (at -3.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isFirstLevel=true&firstName=Capacitors" (id 6) (at -3.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C15195" (id 7) (at -3.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Basic or Extended" "Basic Part" (id 8) (at -3.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Samsung Electro-Mechanics" (id 9) (at -3.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR. Part #" "CL05B103KB5NNNC" (id 10) (at -3.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Category" "Capasitors" (id 11) (at -3.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Famely" "Ceramic Capacitors" (id 12) (at -3.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Excluded from BOM" "NO" (id 13) (at -3.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "cap capacitor" (id 14) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Unpolarized capacitor 10nF, 50V, SMD C_0402" (id 15) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "C_*" (id 16) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "C10nf_0_1"
-      (polyline
-        (pts
-          (xy -2.032 -0.762)
-          (xy 2.032 -0.762)
-        )
-        (stroke (width 0.508) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.032 0.762)
-          (xy 2.032 0.762)
-        )
-        (stroke (width 0.508) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "C10nf_1_1"
-      (pin passive line (at 0 3.81 270) (length 2.794)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -3.81 90) (length 2.794)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "C10uf" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "C10uf" (id 1) (at 0.635 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at -3.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191219_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf" (id 3) (at -3.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "10V 10uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS" (id 4) (at -3.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LibPart" "Local_Device_Library:C10uf" (id 5) (at -3.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isFirstLevel=true&firstName=Capacitors" (id 6) (at -3.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C19702" (id 7) (at -3.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Basic or Extended" "Basic Part" (id 8) (at -3.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Samsung Electro-Mechanics" (id 9) (at -3.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR. Part #" "CL10A106KP8NNNC" (id 10) (at -3.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Category" "Capacitors" (id 11) (at -3.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Famely" "Ceramic Capacitors" (id 12) (at -3.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Excluded from BOM" "NO" (id 13) (at -3.5 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "cap capacitor" (id 14) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Unpolarized capacitor 10uF, 10V, C_0603" (id 15) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "C_*" (id 16) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "C10uf_0_1"
-      (polyline
-        (pts
-          (xy -2.032 -0.762)
-          (xy 2.032 -0.762)
-        )
-        (stroke (width 0.508) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.032 0.762)
-          (xy 2.032 0.762)
-        )
-        (stroke (width 0.508) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "C10uf_1_1"
-      (pin passive line (at 0 3.81 270) (length 2.794)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -3.81 90) (length 2.794)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "C330nf" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "C330nf" (id 1) (at 0.635 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -4.1148 0.1016 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811071214_FH-Guangdong-Fenghua-Advanced-Tech-0805B334K500NT_C1740.pdf" (id 3) (at -4.2672 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "50V 330nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS" (id 4) (at -4 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LibPart" "Local_Device_Library:C330nf" (id 5) (at -3.9624 -0.4064 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isFirstLevel=true&firstName=Capacitors" (id 6) (at -4.064 0.0508 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C1740" (id 7) (at -4.0132 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Basic or Extended" "Basic Part" (id 8) (at -3.9624 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "FH(Guangdong Fenghua Advanced Tech)" (id 9) (at -4.064 -0.3556 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR. Part #" "0805B334K500NT" (id 10) (at -4.0132 0.0508 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Category" "Capacitors" (id 11) (at -4.1656 0.1524 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Famely" "Ceramic Capacitors" (id 12) (at -4.1656 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Excluded from BOM" "NO" (id 13) (at -4.064 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "cap capacitor" (id 14) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Unpolarized capacitor 220nF, 50V, C_0805" (id 15) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "C_*" (id 16) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "C330nf_0_1"
-      (polyline
-        (pts
-          (xy -2.032 -0.762)
-          (xy 2.032 -0.762)
-        )
-        (stroke (width 0.508) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.032 0.762)
-          (xy 2.032 0.762)
-        )
-        (stroke (width 0.508) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "C330nf_1_1"
-      (pin passive line (at 0 3.81 270) (length 2.794)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -3.81 90) (length 2.794)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "R100K" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (id 0) (at 2.032 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "R100K" (id 1) (at 0 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" (id 3) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "±1% 1/16W Thick Film Resistors 50V ±100ppm/℃ -55℃~+155℃ 100kΩ 0402 Chip Resistor - Surface Mount ROHS" (id 4) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LibPart" "Local_Device_Library:R100K" (id 5) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isFirstLevel=true&firstName=Resistors" (id 6) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C25741" (id 7) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Basic or Extended" "Basic Part" (id 8) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)" (id 9) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR. Part #" "0402WGF1003TCE" (id 10) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Category" "Resistors" (id 11) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Famely" "Chip Resistor - Surface Mount" (id 12) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Excluded from BOM" "NO" (id 13) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "R res resistor" (id 14) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Chip Resistor 100k, 1/16W, SMB 0402" (id 15) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "R_*" (id 16) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "R100K_0_1"
-      (rectangle (start -1.016 -2.54) (end 1.016 2.54)
-        (stroke (width 0.254) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "R100K_1_1"
-      (pin passive line (at 0 3.81 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -3.81 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "R10K" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (id 0) (at 2.032 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "R10K" (id 1) (at 0 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" (id 3) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "±1% 1/16W Thick Film Resistors 50V ±100ppm/℃ -55℃~+155℃ 10kΩ 0402 Chip Resistor - Surface Mount ROHS" (id 4) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LibPart" "Local_Device_Library:R10K" (id 5) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isFirstLevel=true&firstName=Resistors" (id 6) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C25744" (id 7) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Basic or Extended" "Basic Part" (id 8) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)" (id 9) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR. Part #" "0402WGF1002TCE" (id 10) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Category" "Resistors" (id 11) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Famely" "Chip Resistor - Surface Mount" (id 12) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Excluded from BOM" "NO" (id 13) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "R res resistor" (id 14) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Chip Resistor 10k, 1/16W, SMD 0402" (id 15) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "R_*" (id 16) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "R10K_0_1"
-      (rectangle (start -1.016 -2.54) (end 1.016 2.54)
-        (stroke (width 0.254) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "R10K_1_1"
-      (pin passive line (at 0 3.81 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -3.81 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "R150K" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (id 0) (at 2.032 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "R150K" (id 1) (at 0 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1503TCE_C25755.pdf" (id 3) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "±1% 1/16W Thick Film Resistors 50V ±100ppm/℃ -55℃~+155℃ 150kΩ 0402 Chip Resistor - Surface Mount ROHS" (id 4) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LibPart" "Local_Device_Library:R150K" (id 5) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isFirstLevel=true&firstName=Resistors" (id 6) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C25755" (id 7) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Basic or Extended" "Basic Part" (id 8) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)" (id 9) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR. Part #" "0402WGF1503TCE" (id 10) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Category" "Resistors" (id 11) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Famely" "Chip Resistor - Surface Mount" (id 12) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Excluded from BOM" "NO" (id 13) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "R res resistor" (id 14) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Chip Resistor 150k, 1/16W, SMD 0402" (id 15) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "R_*" (id 16) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "R150K_0_1"
-      (rectangle (start -1.016 -2.54) (end 1.016 2.54)
-        (stroke (width 0.254) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "R150K_1_1"
-      (pin passive line (at 0 3.81 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -3.81 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "R180" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (id 0) (at 2.032 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "R180" (id 1) (at 0 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110252230_UNI-ROYAL-Uniroyal-Elec-0805W8F1800T5E_C25270.pdf" (id 3) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "±1% 1/8W Thick Film Resistors 150V ±100ppm/℃ -55℃~+155℃ 180Ω 0805 Chip Resistor - Surface Mount ROHS" (id 4) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LibPart" "Local_Device_Library:R180" (id 5) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isFirstLevel=true&firstName=Resistors" (id 6) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C25270" (id 7) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Basic or Extended" "Basic Part" (id 8) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)" (id 9) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR. Part #" "0805W8F1800T5E" (id 10) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Category" "Resistors" (id 11) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Famely" "Chip Resistor - Surface Mount" (id 12) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Excluded from BOM" "NO" (id 13) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "R res resistor" (id 14) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Chip Resistor 180, 1/8W, SMD 0805" (id 15) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "R_*" (id 16) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "R180_0_1"
-      (rectangle (start -1.016 -2.54) (end 1.016 2.54)
-        (stroke (width 0.254) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "R180_1_1"
-      (pin passive line (at 0 3.81 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -3.81 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "R180K" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (id 0) (at 2.032 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "R180K" (id 1) (at 0 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110252030_UNI-ROYAL-Uniroyal-Elec-0603WAF1803T5E_C22827.pdf" (id 3) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "±1% 1/10W Thick Film Resistors 75V ±100ppm/℃ -55℃~+155℃ 180kΩ 0603 Chip Resistor - Surface Mount ROHS" (id 4) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LibPart" "Local_Device_Library:R180K" (id 5) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isFirstLevel=true&firstName=Resistors" (id 6) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C22827" (id 7) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Basic or Extended" "Basic Part" (id 8) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)" (id 9) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR. Part #" "0603WAF1803T5E" (id 10) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Category" "Resistors" (id 11) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Famely" "Chip Resistor - Surface Mount" (id 12) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Excluded from BOM" "NO" (id 13) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "R res resistor" (id 14) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Chip Resistor 180k, 1/10W, SMD 0603" (id 15) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "R_*" (id 16) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "R180K_0_1"
-      (rectangle (start -1.016 -2.54) (end 1.016 2.54)
-        (stroke (width 0.254) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "R180K_1_1"
-      (pin passive line (at 0 3.81 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -3.81 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "R220" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (id 0) (at 2.032 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "R220" (id 1) (at 0 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at -2.0828 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110251830_UNI-ROYAL-Uniroyal-Elec-0805W8F2200T5E_C17557.pdf" (id 3) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "±1% 1/8W Thick Film Resistors 150V ±100ppm/℃ -55℃~+155℃ 220Ω 0805 Chip Resistor - Surface Mount ROHS" (id 4) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LibPart" "Local_Device_Library:R220" (id 5) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isFirstLevel=true&firstName=Resistors" (id 6) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C17557" (id 7) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Basic or Extended" "Basic Part" (id 8) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)" (id 9) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR. Part #" "0805W8F2200T5E" (id 10) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Category" "Resistors" (id 11) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Famely" "Chip Resistor - Surface Mount" (id 12) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Excluded from BOM" "NO" (id 13) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "R res resistor" (id 14) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Chip Resistor 220, 1/8W, SMD 0805" (id 15) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "R_*" (id 16) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "R220_0_1"
-      (rectangle (start -1.016 -2.54) (end 1.016 2.54)
-        (stroke (width 0.254) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "R220_1_1"
-      (pin passive line (at 0 3.81 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -3.81 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "R27" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (id 0) (at 2.032 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "R27" (id 1) (at 0 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110252230_UNI-ROYAL-Uniroyal-Elec-0603WAF270JT5E_C25190.pdf" (id 3) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "±1% 1/10W Thick Film Resistors 75V ±200ppm/℃ -55℃~+155℃ 27Ω 0603 Chip Resistor - Surface Mount ROHS" (id 4) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LibPart" "Local_Device_Library:R27" (id 5) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isFirstLevel=true&firstName=Resistors" (id 6) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C25190" (id 7) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Basic or Extended" "Basic Part" (id 8) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)" (id 9) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR. Part #" "0603WAF270JT5E" (id 10) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Category" "Resistors" (id 11) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Famely" "Chip Resistor - Surface Mount" (id 12) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Excluded from BOM" "NO" (id 13) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "R res resistor" (id 14) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Chip Resistor 27, 0,1W, SMD 0603" (id 15) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "R_*" (id 16) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "R27_0_1"
-      (rectangle (start -1.016 -2.54) (end 1.016 2.54)
-        (stroke (width 0.254) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "R27_1_1"
-      (pin passive line (at 0 3.81 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -3.81 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "R330K" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (id 0) (at 2.032 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "R330K" (id 1) (at 0 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF3303TCE_C25778.pdf" (id 3) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "±1% 1/16W Thick Film Resistors 50V ±100ppm/℃ -55℃~+155℃ 330kΩ 0402 Chip Resistor - Surface Mount ROHS" (id 4) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LibPart" "Local_Device_Library:R330K" (id 5) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isFirstLevel=true&firstName=Resistors" (id 6) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C25778" (id 7) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Basic or Extended" "Basic Part" (id 8) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)" (id 9) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR. Part #" "0402WGF3303TCE" (id 10) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Category" "Resistors" (id 11) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Famely" "Chip Resistor - Surface Mount" (id 12) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Excluded from BOM" "NO" (id 13) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "R res resistor" (id 14) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Chip Resistor 330k, 1/16W, SMD 0402" (id 15) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "R_*" (id 16) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "R330K_0_1"
-      (rectangle (start -1.016 -2.54) (end 1.016 2.54)
-        (stroke (width 0.254) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "R330K_1_1"
-      (pin passive line (at 0 3.81 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -3.81 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "R33K" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (id 0) (at 2.032 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "R33K" (id 1) (at 0 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF3302TCE_C25779.pdf" (id 3) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "±1% 1/16W Thick Film Resistors 50V ±100ppm/℃ -55℃~+155℃ 33kΩ 0402 Chip Resistor - Surface Mount ROHS" (id 4) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LibPart" "Local_Device_Library:R33K" (id 5) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isFirstLevel=true&firstName=Resistors" (id 6) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C25779" (id 7) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Basic or Extended" "Basic Part" (id 8) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)" (id 9) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR. Part #" "0402WGF3302TCE" (id 10) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Category" "Resistors" (id 11) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Famely" "Chip Resistor - Surface Mount" (id 12) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Excluded from BOM" "NO" (id 13) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "R res resistor" (id 14) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Chip Resistor 33k, 1/16W, SMD 0402" (id 15) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "R_*" (id 16) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "R33K_0_1"
-      (rectangle (start -1.016 -2.54) (end 1.016 2.54)
-        (stroke (width 0.254) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "R33K_1_1"
-      (pin passive line (at 0 3.81 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -3.81 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "R390" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (id 0) (at 2.032 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "R390" (id 1) (at 0 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110252130_UNI-ROYAL-Uniroyal-Elec-0603WAF3900T5E_C23151.pdf" (id 3) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "±1% 1/10W Thick Film Resistors 75V ±100ppm/℃ -55℃~+155℃ 390Ω 0603 Chip Resistor - Surface Mount ROHS" (id 4) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LibPart" "Local_Device_Library:R390" (id 5) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isFirstLevel=true&firstName=Resistors" (id 6) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C23151" (id 7) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Basic or Extended" "Basic Part" (id 8) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)" (id 9) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR. Part #" "0603WAF3900T5E" (id 10) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Category" "Resistors" (id 11) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Famely" "Chip Resistor - Surface Mount" (id 12) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Excluded from BOM" "NO" (id 13) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "R res resistor" (id 14) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Chip Resistor 390, 1/10W, SMD 0603" (id 15) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "R_*" (id 16) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "R390_0_1"
-      (rectangle (start -1.016 -2.54) (end 1.016 2.54)
-        (stroke (width 0.254) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "R390_1_1"
-      (pin passive line (at 0 3.81 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -3.81 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "R39K" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (id 0) (at 2.032 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "R39K" (id 1) (at 0 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" (id 3) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "±1% 1/16W Thick Film Resistors 50V ±100ppm/℃ -55℃~+155℃ 39kΩ 0402 Chip Resistor - Surface Mount ROHS" (id 4) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LibPart" "Local_Device_Library" (id 5) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isFirstLevel=true&firstName=Resistors" (id 6) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C25783" (id 7) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Basic or Extended" "Basic Part" (id 8) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)" (id 9) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR. Part #" "0402WGF3902TCE" (id 10) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Category" "Resistors" (id 11) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Famely" "Chip Resistor - Surface Mount" (id 12) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Excluded from BOM" "NO" (id 13) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "R res resistor" (id 14) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Chip Resistor 39k, 1/16W, SMD 0402" (id 15) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "R_*" (id 16) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "R39K_0_1"
-      (rectangle (start -1.016 -2.54) (end 1.016 2.54)
-        (stroke (width 0.254) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "R39K_1_1"
-      (pin passive line (at 0 3.81 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -3.81 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "R56" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (id 0) (at 2.032 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "R56" (id 1) (at 0 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_1206_3216Metric" (id 2) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110251930_UNI-ROYAL-Uniroyal-Elec-1206W4F1003T5E_C17900.pdf" (id 3) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "±1% 1/4W Thick Film Resistors 200V ±100ppm/℃ -55℃~+155℃ 100kΩ 1206 Chip Resistor - Surface Mount ROHS" (id 4) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LibPart" "Local_Device_Library:R56" (id 5) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isSecondLevel=true&firstName=Resistors%20&name=Chip%20Resistor%20-%20Surface%20Mount" (id 6) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C17900" (id 7) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Basic or Extended" "Basic Part" (id 8) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)" (id 9) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR. Part #" "1206W4F1003T5E" (id 10) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Category" "Resistors" (id 11) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Famely" "Chip Resistor - Surface Mount" (id 12) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Excluded from BOM" "NO" (id 13) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "R res resistor" (id 14) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Chip Resistor 56, 1/4W, SMD 1206" (id 15) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "R_*" (id 16) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "R56_0_1"
-      (rectangle (start -1.016 -2.54) (end 1.016 2.54)
-        (stroke (width 0.254) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "R56_1_1"
-      (pin passive line (at 0 3.81 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -3.81 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "R680K" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (id 0) (at 2.032 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "R680K" (id 1) (at 0 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0603WAF6803T5E_C25822.pdf" (id 3) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "±1% 1/10W Thick Film Resistors 75V ±100ppm/℃ -55℃~+155℃ 680kΩ 0603 Chip Resistor - Surface Mount ROHS" (id 4) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LibPart" "Local_Device_Library:R680K" (id 5) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isFirstLevel=true&firstName=Resistors" (id 6) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C25822" (id 7) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Basic or Extended" "Basic Part" (id 8) (at -2.0828 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)" (id 9) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR. Part #" "0603WAF6803T5E" (id 10) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Category" "Resistors" (id 11) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Famely" "Chip Resistor - Surface Mount" (id 12) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Excluded from BOM" "NO" (id 13) (at -2 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "R res resistor" (id 14) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Chip Resistor 680k, 0,1W, SMD 0603" (id 15) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "R_*" (id 16) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "R680K_0_1"
-      (rectangle (start -1.016 -2.54) (end 1.016 2.54)
-        (stroke (width 0.254) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "R680K_1_1"
-      (pin passive line (at 0 3.81 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -3.81 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "4_DIP_R1.8K"
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "RN"
+			(at -7.62 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4_DIP_R1.8K"
+			(at 5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_local:RES-ARRAY-SMD_0603-8P-L3.2-W1.6-BL"
+			(at 7.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810170730_UNI-ROYAL-Uniroyal-Elec-4D03WGJ0182T5E_C11989.pdf"
+			(at 7.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 ±5% 8 1.8kΩ 1/16W ±200ppm/℃ 1206 Resistor Networks & Arrays ROHS"
+			(at 7.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibPart" "Local_Device_Library:4_DIP_R1.8K"
+			(at 7.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isFirstLevel=true&firstName=Resistors"
+			(at 7.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C11989"
+			(at 7.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic or Extended" "Extended Part"
+			(at 7.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 7.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR. Part #" "4D03WGJ0182T5E"
+			(at 7.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors"
+			(at 7.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Famely" "Resistor Network & Arrays"
+			(at 7.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Excluded from BOM" "NO"
+			(at 7.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "DIP* SOIC*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "4_DIP_R1.8K_0_1"
+			(rectangle
+				(start -6.35 -2.413)
+				(end 3.81 2.413)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -5.715 1.905)
+				(end -4.445 -1.905)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -3.175 1.905)
+				(end -1.905 -1.905)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -0.635 1.905)
+				(end 0.635 -1.905)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -2.54) (xy -5.08 -1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 1.905) (xy -5.08 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -2.54) (xy -2.54 -1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 1.905) (xy -2.54 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 0 -1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.905) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -2.54) (xy 2.54 -1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 1.905) (xy 2.54 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 1.905 1.905)
+				(end 3.175 -1.905)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "4_DIP_R1.8K_1_1"
+			(pin passive line
+				(at -5.08 -5.08 90)
+				(length 2.54)
+				(name "R1.1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -5.08 90)
+				(length 2.54)
+				(name "R2.1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "R3.1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -5.08 90)
+				(length 2.54)
+				(name "R4.1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 5.08 270)
+				(length 2.54)
+				(name "R4.2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "R3.2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 5.08 270)
+				(length 2.54)
+				(name "R2.2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 5.08 270)
+				(length 2.54)
+				(name "R1.2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "C100nf"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C100nf"
+			(at 0.635 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at -3.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191219_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+			(at -3.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor 100nF, 50V, SMD C_0402"
+			(at -3.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibPart" "Local_Device_Library:C100nf"
+			(at -3.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isFirstLevel=true&firstName=Capacitors"
+			(at -3.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1525"
+			(at -3.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic or Extended" "Basic Part"
+			(at -3.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at -3.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR. Part #" "CL05B104KO5NNNC"
+			(at -3.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors"
+			(at -3.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Famely" "Ceramic Capacitors"
+			(at -3.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Excluded from BOM" "NO"
+			(at -3.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "C100nf_0_1"
+			(polyline
+				(pts
+					(xy -2.032 -0.762) (xy 2.032 -0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 0.762) (xy 2.032 0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C100nf_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.794)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.794)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "C10nf"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C10nf"
+			(at 0.635 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at -3.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191223_Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.pdf"
+			(at -3.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor 10nF, 50V, SMD C_0402"
+			(at -3.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibPart" "Local_Device_Library:C10nf"
+			(at -3.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isFirstLevel=true&firstName=Capacitors"
+			(at -3.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C15195"
+			(at -3.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic or Extended" "Basic Part"
+			(at -3.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at -3.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR. Part #" "CL05B103KB5NNNC"
+			(at -3.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capasitors"
+			(at -3.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Famely" "Ceramic Capacitors"
+			(at -3.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Excluded from BOM" "NO"
+			(at -3.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "C10nf_0_1"
+			(polyline
+				(pts
+					(xy -2.032 -0.762) (xy 2.032 -0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 0.762) (xy 2.032 0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C10nf_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.794)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.794)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "C10uf"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C10uf"
+			(at 0.635 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at -3.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191219_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf"
+			(at -3.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor 10uF, 10V, C_0603"
+			(at -3.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibPart" "Local_Device_Library:C10uf"
+			(at -3.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isFirstLevel=true&firstName=Capacitors"
+			(at -3.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C19702"
+			(at -3.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic or Extended" "Basic Part"
+			(at -3.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at -3.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR. Part #" "CL10A106KP8NNNC"
+			(at -3.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors"
+			(at -3.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Famely" "Ceramic Capacitors"
+			(at -3.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Excluded from BOM" "NO"
+			(at -3.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "C10uf_0_1"
+			(polyline
+				(pts
+					(xy -2.032 -0.762) (xy 2.032 -0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 0.762) (xy 2.032 0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C10uf_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.794)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.794)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "C330nf"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C330nf"
+			(at 0.635 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at -4.1148 0.1016 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811071214_FH-Guangdong-Fenghua-Advanced-Tech-0805B334K500NT_C1740.pdf"
+			(at -4.2672 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor 220nF, 50V, C_0805"
+			(at -4 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibPart" "Local_Device_Library:C330nf"
+			(at -3.9624 -0.4064 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isFirstLevel=true&firstName=Capacitors"
+			(at -4.064 0.0508 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1740"
+			(at -4.0132 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic or Extended" "Basic Part"
+			(at -3.9624 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FH(Guangdong Fenghua Advanced Tech)"
+			(at -4.064 -0.3556 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR. Part #" "0805B334K500NT"
+			(at -4.0132 0.0508 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors"
+			(at -4.1656 0.1524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Famely" "Ceramic Capacitors"
+			(at -4.1656 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Excluded from BOM" "NO"
+			(at -4.064 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "C330nf_0_1"
+			(polyline
+				(pts
+					(xy -2.032 -0.762) (xy 2.032 -0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 0.762) (xy 2.032 0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C330nf_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.794)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.794)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "R100K"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R100K"
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1003TCE_C25741.pdf"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Chip Resistor 100k, 1/16W, SMB 0402"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibPart" "Local_Device_Library:R100K"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isFirstLevel=true&firstName=Resistors"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25741"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic or Extended" "Basic Part"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR. Part #" "0402WGF1003TCE"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Famely" "Chip Resistor - Surface Mount"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Excluded from BOM" "NO"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "R100K_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R100K_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "R10K"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R10K"
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Chip Resistor 10k, 1/16W, SMD 0402"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibPart" "Local_Device_Library:R10K"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isFirstLevel=true&firstName=Resistors"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25744"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic or Extended" "Basic Part"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR. Part #" "0402WGF1002TCE"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Famely" "Chip Resistor - Surface Mount"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Excluded from BOM" "NO"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "R10K_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R10K_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "R150K"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R150K"
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1503TCE_C25755.pdf"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Chip Resistor 150k, 1/16W, SMD 0402"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibPart" "Local_Device_Library:R150K"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isFirstLevel=true&firstName=Resistors"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25755"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic or Extended" "Basic Part"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR. Part #" "0402WGF1503TCE"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Famely" "Chip Resistor - Surface Mount"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Excluded from BOM" "NO"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "R150K_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R150K_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "R180"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R180"
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110252230_UNI-ROYAL-Uniroyal-Elec-0805W8F1800T5E_C25270.pdf"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Chip Resistor 180, 1/8W, SMD 0805"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibPart" "Local_Device_Library:R180"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isFirstLevel=true&firstName=Resistors"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25270"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic or Extended" "Basic Part"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR. Part #" "0805W8F1800T5E"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Famely" "Chip Resistor - Surface Mount"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Excluded from BOM" "NO"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "R180_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R180_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "R180K"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R180K"
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110252030_UNI-ROYAL-Uniroyal-Elec-0603WAF1803T5E_C22827.pdf"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Chip Resistor 180k, 1/10W, SMD 0603"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibPart" "Local_Device_Library:R180K"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isFirstLevel=true&firstName=Resistors"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C22827"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic or Extended" "Basic Part"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR. Part #" "0603WAF1803T5E"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Famely" "Chip Resistor - Surface Mount"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Excluded from BOM" "NO"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "R180K_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R180K_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "R220"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R220"
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at -2.0828 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110251830_UNI-ROYAL-Uniroyal-Elec-0805W8F2200T5E_C17557.pdf"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Chip Resistor 220, 1/8W, SMD 0805"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibPart" "Local_Device_Library:R220"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isFirstLevel=true&firstName=Resistors"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C17557"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic or Extended" "Basic Part"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR. Part #" "0805W8F2200T5E"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Famely" "Chip Resistor - Surface Mount"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Excluded from BOM" "NO"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "R220_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R220_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "R27"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R27"
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110252230_UNI-ROYAL-Uniroyal-Elec-0603WAF270JT5E_C25190.pdf"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Chip Resistor 27, 0,1W, SMD 0603"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibPart" "Local_Device_Library:R27"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isFirstLevel=true&firstName=Resistors"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25190"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic or Extended" "Extended(Preferred)"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR. Part #" "0603WAF270JT5E"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Famely" "Chip Resistor - Surface Mount"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Excluded from BOM" "NO"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "R27_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R27_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "R330K"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R330K"
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF3303TCE_C25778.pdf"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Chip Resistor 330k, 1/16W, SMD 0402"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibPart" "Local_Device_Library:R330K"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isFirstLevel=true&firstName=Resistors"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25778"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic or Extended" "Basic Part"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR. Part #" "0402WGF3303TCE"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Famely" "Chip Resistor - Surface Mount"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Excluded from BOM" "NO"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "R330K_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R330K_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "R33K"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R33K"
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF3302TCE_C25779.pdf"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Chip Resistor 33k, 1/16W, SMD 0402"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibPart" "Local_Device_Library:R33K"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isFirstLevel=true&firstName=Resistors"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25779"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic or Extended" "Basic Part"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR. Part #" "0402WGF3302TCE"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Famely" "Chip Resistor - Surface Mount"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Excluded from BOM" "NO"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "R33K_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R33K_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "R390"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R390"
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110252130_UNI-ROYAL-Uniroyal-Elec-0603WAF3900T5E_C23151.pdf"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Chip Resistor 390, 1/10W, SMD 0603"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibPart" "Local_Device_Library:R390"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isFirstLevel=true&firstName=Resistors"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C23151"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic or Extended" "Basic Part"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR. Part #" "0603WAF3900T5E"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Famely" "Chip Resistor - Surface Mount"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Excluded from BOM" "NO"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "R390_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R390_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "R39K"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R39K"
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Chip Resistor 39k, 1/16W, SMD 0402"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibPart" "Local_Device_Library"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isFirstLevel=true&firstName=Resistors"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25783"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic or Extended" "Basic Part"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR. Part #" "0402WGF3902TCE"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Famely" "Chip Resistor - Surface Mount"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Excluded from BOM" "NO"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "R39K_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R39K_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "R56"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R56"
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110251930_UNI-ROYAL-Uniroyal-Elec-1206W4F1003T5E_C17900.pdf"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Chip Resistor 56, 1/4W, SMD 1206"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibPart" "Local_Device_Library:R56"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isSecondLevel=true&firstName=Resistors%20&name=Chip%20Resistor%20-%20Surface%20Mount"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C17900"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic or Extended" "Basic Part"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR. Part #" "1206W4F1003T5E"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Famely" "Chip Resistor - Surface Mount"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Excluded from BOM" "NO"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "R56_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R56_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "R680K"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R680K"
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0603WAF6803T5E_C25822.pdf"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Chip Resistor 680k, 0,1W, SMD 0603"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibPart" "Local_Device_Library:R680K"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isFirstLevel=true&firstName=Resistors"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25822"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic or Extended" "Basic Part"
+			(at -2.0828 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR. Part #" "0603WAF6803T5E"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Famely" "Chip Resistor - Surface Mount"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Excluded from BOM" "NO"
+			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "R680K_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R680K_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 )
