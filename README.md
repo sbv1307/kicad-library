@@ -10,7 +10,7 @@ git submodule add https://github.com/sbv1307/kicad-library.git Hardware/library
 
 Then add the specific symbol library in KiCad by:<br> KiCad -> Preferences -> Manage Symbol Libraries -> Project spedific Libraries.
 
-##### Note: Nickname (Take mname form library name e.g. Local MCU Modues. <br>Libarary path: Just select the symbol library downloaded from github. ${KIPRJMOD} will automatically substitude the path.
+##### Note: Nickname (Take name form library name e.g. Local MCU Modues. <br>Libarary path: Just select the symbol library downloaded from github. ${KIPRJMOD} will automatically substitude the path.
 
 ## To update the local KiCad library i a project use:
 ```Bash
@@ -47,7 +47,7 @@ Description | < Text taken from providers website > | [ ]
 LibPart | <Refenence to symbol lib, where the symbol is located>  | [ ]
 JLCBCB Part /  Digi-Key Part| < Link to providers website > | [ ]
 JLCPCB Part # /Digi-Key Part # | < Providers part- / ordernumber > | [  ]
-JLCPCB Basic or Extended / Digi-Key Delstatus| Basic part / Extended part / Aktiv / Forældet | [  ]
+JLCPCB Basic, Preferred Extended or Extended / Digi-Key Delstatus| Basic part / Preferred Extended Parts / Extended part / Aktiv / Forældet | [  ]
 Manufacturer | < Manufacture name, taken from providers website > | [  ]
 MFR. Part # | < Manufactures part- / ordernumber > | [  ]
 Category | Resistors, Capasitors... ( taken from providers website )  | [  ]

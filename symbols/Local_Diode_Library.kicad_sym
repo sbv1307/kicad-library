@@ -1,588 +1,1623 @@
-(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
-  (symbol "1N4004" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom no) (on_board yes)
-    (property "Reference" "D" (id 0) (at 0 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1N4004" (id 1) (at 0 -2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal" (id 2) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf" (id 3) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "1A 5μA@400V 400V 1.1V@1A A-405 Diodes - General Purpose ROHS" (id 4) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LibPart" "Local_Diode_Library:1N4004" (id 5) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isFirstLevel=true&firstName=Diodes" (id 6) (at 0 0 0)
-      (effects (font (size 0 0)) hide)
-    )
-    (property "JLCPCB Part #" "C3058" (id 7) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Basic or Extended" "Extended Part" (id 8) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "MDD（Microdiode Electronics）" (id 9) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR. Part #" "1N4004" (id 10) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Category" "Diodes" (id 11) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Famely" "Diodes - General Purpose" (id 12) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Excluded from BOM" "YES" (id 13) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "diode" (id 14) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "50V 1A General Purpose Rectifier Diode, DO-41" (id 15) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "D*DO?41*" (id 16) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "1N4004_0_1"
-      (polyline
-        (pts
-          (xy -1.27 1.27)
-          (xy -1.27 -1.27)
-        )
-        (stroke (width 0.254) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 0)
-          (xy -1.27 0)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 1.27)
-          (xy 1.27 -1.27)
-          (xy -1.27 0)
-          (xy 1.27 1.27)
-        )
-        (stroke (width 0.254) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "1N4004_1_1"
-      (pin passive line (at -3.81 0 0) (length 2.54)
-        (name "K" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 3.81 0 180) (length 2.54)
-        (name "A" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "1N4148WS" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "D" (id 0) (at 0 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1N4148WS" (id 1) (at 0 -2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Diode_SMD:D_SOD-323F" (id 2) (at 0 -4.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810101110_Changjiang-Electronics-Tech--CJ-1N4148WS_C2128.pdf" (id 3) (at 0 -4.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "100V +150℃@(Tj) 200mW Single 1.25V@150mA 4ns 1μA@75V 150mA SOD-323 Switching Diode ROHS" (id 4) (at 0 -4.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LibPart" "Local_Diode_Library:1N4148WS" (id 5) (at 0 -4.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isFirstLevel=true&firstName=Diodes" (id 6) (at 0 -4.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C2128" (id 7) (at 0 -4.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Basic or Extended" "Basic Part" (id 8) (at 0 -4.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Changjiang Electronics Tech (CJ)" (id 9) (at 0 -4.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR. Part #" "1N4148WS" (id 10) (at 0 -4.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Category" "Diodes" (id 11) (at 0 -4.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Famely" "Switching Diode" (id 12) (at 0 -4.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Excluded from BOM" "NO" (id 13) (at 0 -4.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "diode 1n4148" (id 14) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "100V 0.15A Fast switching Diode, SOD-323F" (id 15) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "D*SOD?323*" (id 16) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "1N4148WS_0_1"
-      (polyline
-        (pts
-          (xy -1.27 1.27)
-          (xy -1.27 -1.27)
-        )
-        (stroke (width 0.254) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 0)
-          (xy -1.27 0)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 1.27)
-          (xy 1.27 -1.27)
-          (xy -1.27 0)
-          (xy 1.27 1.27)
-        )
-        (stroke (width 0.254) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "1N4148WS_1_1"
-      (pin passive line (at -3.81 0 0) (length 2.54)
-        (name "K" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 3.81 0 180) (length 2.54)
-        (name "A" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "D_Z2V4" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom no) (on_board yes)
-    (property "Reference" "D" (id 0) (at 0 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "D_Z2V4" (id 1) (at 0 -2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (id 2) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1809192216_ST-Semtech-BZX55C2V4_C2504.pdf" (id 3) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "50μA@1V 85Ω Single 2.28V~2.56V 500mW 2.4V DO-35 Zener Diodes ROHS" (id 4) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LibPart" "Local_Diode_Library:D_Z2V4" (id 5) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isSecondLevel=true&name=Zener%20Diodes%20&firstName=Diodes" (id 6) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C2504" (id 7) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Basic or Extended" "Extended Part" (id 8) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "ST(Semtech)" (id 9) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR. Part #" "BZX55C2V4" (id 10) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Category" "Diodes" (id 11) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Famely" "Zener Diodes" (id 12) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Excluded from BOM" "YES" (id 13) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "diode" (id 14) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Zener diode, 2V4" (id 15) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*" (id 16) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "D_Z2V4_0_1"
-      (polyline
-        (pts
-          (xy 1.27 0)
-          (xy -1.27 0)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 -1.27)
-          (xy -1.27 1.27)
-          (xy -0.762 1.27)
-        )
-        (stroke (width 0.254) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 -1.27)
-          (xy 1.27 1.27)
-          (xy -1.27 0)
-          (xy 1.27 -1.27)
-        )
-        (stroke (width 0.254) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "D_Z2V4_1_1"
-      (pin passive line (at -3.81 0 0) (length 2.54)
-        (name "K" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 3.81 0 180) (length 2.54)
-        (name "A" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "D_Z2V7" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom no) (on_board yes)
-    (property "Reference" "D" (id 0) (at 0 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "D_Z2V7" (id 1) (at 0 -2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (id 2) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1809251627_ST-Semtech-1N5223B_C118644.pdf" (id 3) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "75μA@1V ±5% 30Ω Single 2.57V~2.83V 500mW 2.7V DO-35 Zener Diodes ROHS" (id 4) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LibPart" "Local_Diode_Library:D_Z2V7" (id 5) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isSecondLevel=true&name=Zener%20Diodes%20&firstName=Diodes" (id 6) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C118644" (id 7) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Basic or Extended" "Extended Part" (id 8) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "ST(Semtech)" (id 9) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR. Part #" "1N5223B" (id 10) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Category" "Diodes" (id 11) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Famely" "Zener Diodes" (id 12) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Excluded from BOM" "YES" (id 13) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "diode" (id 14) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Zener diode, 2V7" (id 15) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*" (id 16) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "D_Z2V7_0_1"
-      (polyline
-        (pts
-          (xy 1.27 0)
-          (xy -1.27 0)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 -1.27)
-          (xy -1.27 1.27)
-          (xy -0.762 1.27)
-        )
-        (stroke (width 0.254) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 -1.27)
-          (xy 1.27 1.27)
-          (xy -1.27 0)
-          (xy 1.27 -1.27)
-        )
-        (stroke (width 0.254) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "D_Z2V7_1_1"
-      (pin passive line (at -3.81 0 0) (length 2.54)
-        (name "K" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 3.81 0 180) (length 2.54)
-        (name "A" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "LED_0805_R" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "D" (id 0) (at 0 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LED_0805_R" (id 1) (at 0 -2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "LED_SMD:LED_0805_2012Metric" (id 2) (at 0 -4.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2008201032_Foshan-NationStar-Optoelectronics-NCD0805R1_C84256.pdf" (id 3) (at 0 -4.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Red 0805 Light Emitting Diodes (LED) ROHS" (id 4) (at 0 -4.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LibPart" "Local_Diode_Library:LED_0805_R" (id 5) (at 0 -4.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isSecondLevel=true&firstName=Optoelectronics%20&name=Light%20Emitting%20Diodes%20%28led%29" (id 6) (at 0 -4.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C84256" (id 7) (at 0 -4.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Basic or Extended" "Basic Part" (id 8) (at 0 -4.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Foshan NationStar Optoelectronics" (id 9) (at 0 -4.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR. Part #" "NCD0805R1" (id 10) (at 0 -4.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Category" "Optoelectronics" (id 11) (at 0 -4.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Famely" "Light Emitting Diodes (led)" (id 12) (at 0 -4.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Excluded from BOM" "NO" (id 13) (at 0 -4.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Red 615~630nm 67~195mcd@20mA Top View 0805 RoHS" (id 14) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "LED_0805_R_0_1"
-      (polyline
-        (pts
-          (xy -1.27 -1.27)
-          (xy -1.27 1.27)
-        )
-        (stroke (width 0.254) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 0)
-          (xy 1.27 0)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 -1.27)
-          (xy 1.27 1.27)
-          (xy -1.27 0)
-          (xy 1.27 -1.27)
-        )
-        (stroke (width 0.254) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -3.048 -0.762)
-          (xy -4.572 -2.286)
-          (xy -3.81 -2.286)
-          (xy -4.572 -2.286)
-          (xy -4.572 -1.524)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.778 -0.762)
-          (xy -3.302 -2.286)
-          (xy -2.54 -2.286)
-          (xy -3.302 -2.286)
-          (xy -3.302 -1.524)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "LED_0805_R_1_1"
-      (pin passive line (at -3.81 0 0) (length 2.54)
-        (name "K" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 3.81 0 180) (length 2.54)
-        (name "A" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "LED_G3" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom no) (on_board yes)
-    (property "Reference" "D" (id 0) (at 0 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LED_G3" (id 1) (at 1.2192 -2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "LED_THT:LED_D3.0mm" (id 2) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.we-online.com/katalog/datasheet/151031VS04000.pdf" (id 3) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Grøn 570nm LED-indikation – Diskret 2,1V Radial" (id 4) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LibPart" "Local_Diode_Library" (id 5) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Digi-Key Part" "https://www.digikey.dk/da/products/detail/w%C3%BCrth-elektronik/151031VS04000/4489985" (id 6) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Digi-Key Part #" "732-5007-ND" (id 7) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Digi-Key Delstatus" "Aktiv" (id 8) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Würth Elektronik" (id 9) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR. Part #" "151031VS04000" (id 10) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Category" "Optoelektronik" (id 11) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Famely" "LED-indikation – Diskret" (id 12) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Excluded from BOM" "YES" (id 13) (at 0 -5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "LED diode" (id 14) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "LED GREEN DIFFUSED 3MM ROUND T/H" (id 15) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*" (id 16) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "LED_G3_0_1"
-      (polyline
-        (pts
-          (xy -1.27 -1.27)
-          (xy -1.27 1.27)
-        )
-        (stroke (width 0.254) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 0)
-          (xy 1.27 0)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 -1.27)
-          (xy 1.27 1.27)
-          (xy -1.27 0)
-          (xy 1.27 -1.27)
-        )
-        (stroke (width 0.254) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -3.048 -0.762)
-          (xy -4.572 -2.286)
-          (xy -3.81 -2.286)
-          (xy -4.572 -2.286)
-          (xy -4.572 -1.524)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.778 -0.762)
-          (xy -3.302 -2.286)
-          (xy -2.54 -2.286)
-          (xy -3.302 -2.286)
-          (xy -3.302 -1.524)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "LED_G3_1_1"
-      (pin passive line (at -3.81 0 0) (length 2.54)
-        (name "K" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 3.81 0 180) (length 2.54)
-        (name "A" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "1N4004"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4004"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibPart" "Local_Diode_Library:1N4004"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isFirstLevel=true&firstName=Diodes"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 0.001 0.001)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C3058"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic or Extended" "Extended Part"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MDD（Microdiode Electronics）"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR. Part #" "1N4004"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Diodes"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Famely" "Diodes - General Purpose"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Excluded from BOM" "YES"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "D*DO?41*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "1N4004_0_1"
+			(polyline
+				(pts
+					(xy -1.27 1.27) (xy -1.27 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "1N4004_1_1"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "1N4148WS"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
+			(at 0 -4.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810101110_Changjiang-Electronics-Tech--CJ-1N4148WS_C2128.pdf"
+			(at 0 -4.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A Fast switching Diode, SOD-323F"
+			(at 0 -4.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibPart" "Local_Diode_Library:1N4148WS"
+			(at 0 -4.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isFirstLevel=true&firstName=Diodes"
+			(at 0 -4.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C2128"
+			(at 0 -4.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic or Extended" "Basic Part"
+			(at 0 -4.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Changjiang Electronics Tech (CJ)"
+			(at 0 -4.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR. Part #" "1N4148WS"
+			(at 0 -4.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Diodes"
+			(at 0 -4.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Famely" "Switching Diode"
+			(at 0 -4.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Excluded from BOM" "NO"
+			(at 0 -4.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode 1n4148"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "D*SOD?323*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "1N4148WS_0_1"
+			(polyline
+				(pts
+					(xy -1.27 1.27) (xy -1.27 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "1N4148WS_1_1"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "D_Z2V4"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Z2V4"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1809192216_ST-Semtech-BZX55C2V4_C2504.pdf"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode, 2V4"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibPart" "Local_Diode_Library:D_Z2V4"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isSecondLevel=true&name=Zener%20Diodes%20&firstName=Diodes"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C2504"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic or Extended" "Extended Part"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ST(Semtech)"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR. Part #" "BZX55C2V4"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Diodes"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Famely" "Zener Diodes"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Excluded from BOM" "YES"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "D_Z2V4_0_1"
+			(polyline
+				(pts
+					(xy 1.27 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "D_Z2V4_1_1"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "D_Z2V7"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Z2V7"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1809251627_ST-Semtech-1N5223B_C118644.pdf"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode, 2V7"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibPart" "Local_Diode_Library:D_Z2V7"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isSecondLevel=true&name=Zener%20Diodes%20&firstName=Diodes"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C118644"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic or Extended" "Extended Part"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ST(Semtech)"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR. Part #" "1N5223B"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Diodes"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Famely" "Zener Diodes"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Excluded from BOM" "YES"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "D_Z2V7_0_1"
+			(polyline
+				(pts
+					(xy 1.27 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "D_Z2V7_1_1"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "LED_0805_G"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_0805_G"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 0 -4.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1806151820_Hubei-KENTO-Elec-KT-0805G_C2297.pdf"
+			(at 0 -4.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Emerald 0805 Light Emitting Diodes (LED) ROHS"
+			(at 0 -4.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibPart" "Local_Diode_Library:LED_0805_G"
+			(at 0 -4.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBCB Part" "https://jlcpcb.com/parts/2nd/Optoelectronics/Light_Emitting_Diodes_(LED)_80363"
+			(at 0 -4.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C2297"
+			(at 0 -4.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic or Extended" "Basic Part"
+			(at 0 -4.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Hubei KENTO Elec"
+			(at 0 -4.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR. Part #" "KT-0805G"
+			(at 0 -4.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Optoelectronics"
+			(at 0 -4.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Famely" "Light Emitting Diodes (led)"
+			(at 0 -4.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Excluded from BOM" "NO"
+			(at 0 -4.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LED_0805_G_0_1"
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 0) (xy 1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "LED_0805_G_1_1"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "LED_0805_R"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_0805_R"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 0 -4.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2008201032_Foshan-NationStar-Optoelectronics-NCD0805R1_C84256.pdf"
+			(at 0 -4.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Red 615~630nm 67~195mcd@20mA Top View 0805 RoHS"
+			(at 0 -4.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibPart" "Local_Diode_Library:LED_0805_R"
+			(at 0 -4.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCBCB Part" "https://jlcpcb.com/parts/componentSearch?isSecondLevel=true&firstName=Optoelectronics%20&name=Light%20Emitting%20Diodes%20%28led%29"
+			(at 0 -4.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C84256"
+			(at 0 -4.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic or Extended" "Basic Part"
+			(at 0 -4.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 0 -4.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR. Part #" "NCD0805R1"
+			(at 0 -4.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Optoelectronics"
+			(at 0 -4.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Famely" "Light Emitting Diodes (led)"
+			(at 0 -4.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Excluded from BOM" "NO"
+			(at 0 -4.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LED_0805_R_0_1"
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 0) (xy 1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "LED_0805_R_1_1"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "LED_G3"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_G3"
+			(at 1.2192 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/katalog/datasheet/151031VS04000.pdf"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED GREEN DIFFUSED 3MM ROUND T/H"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibPart" "Local_Diode_Library"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part" "https://www.digikey.dk/da/products/detail/w%C3%BCrth-elektronik/151031VS04000/4489985"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part #" "732-5007-ND"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Delstatus" "Aktiv"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR. Part #" "151031VS04000"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Optoelektronik"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Famely" "LED-indikation – Diskret"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Excluded from BOM" "YES"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "LED diode"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LED_G3_0_1"
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 0) (xy 1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "LED_G3_1_1"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 )
