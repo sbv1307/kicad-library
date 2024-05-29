@@ -3022,7 +3022,7 @@
 			)
 		)
 		(property "LibPart" ""
-			(at 0 -5.08 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3031,7 +3031,7 @@
 			)
 		)
 		(property "JLCBCB Part / Digi-Key Part" ""
-			(at 0 -5.08 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3040,7 +3040,7 @@
 			)
 		)
 		(property "JLCPCB Part # /Digi-Key Part #" ""
-			(at 0 -5.08 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3049,7 +3049,7 @@
 			)
 		)
 		(property "JLCPCB Basic or Extended / Digi-Key Delstatus" ""
-			(at 0 -5.08 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3058,7 +3058,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 0 -5.08 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3067,7 +3067,7 @@
 			)
 		)
 		(property "MFR. Part #" ""
-			(at 0 -5.08 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3085,7 +3085,7 @@
 			)
 		)
 		(property "Famely" ""
-			(at 0 -5.08 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3094,7 +3094,7 @@
 			)
 		)
 		(property "Excluded from BOM" "YES"
-			(at 0 -5.08 0)
+			(at 5.334 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3430,7 +3430,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 -2.54 0)
+				(at -15.24 -5.08 0)
 				(length 2.54)
 				(name "IO18_/_VSPI_CLK"
 					(effects
@@ -3448,7 +3448,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 -5.08 0)
+				(at -15.24 -7.62 0)
 				(length 2.54)
 				(name "IO19_/_VSPI_MISO"
 					(effects
@@ -3556,7 +3556,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 -7.62 0)
+				(at -15.24 -2.54 0)
 				(length 2.54)
 				(name "IO23_/_VSPI_MOSI"
 					(effects
