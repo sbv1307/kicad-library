@@ -1170,7 +1170,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 0 0 0)
+			(at 0 -6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1179,7 +1179,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811141851_Nexperia-74HC14D-653_C5605.pdf"
-			(at 0 0 0)
+			(at 0 -6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1188,7 +1188,7 @@
 			)
 		)
 		(property "Description" "Schmitt Trigger 6 21ns@6V,50pF 2uA 2V~6V SOIC-14  Inverters ROHS"
-			(at 0 0 0)
+			(at 0 -6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1197,7 +1197,7 @@
 			)
 		)
 		(property "LibPart" "Local_Miscellaneous_Library:74HC14-local_74HCxx"
-			(at 0 0 0)
+			(at 0 -6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1206,7 +1206,7 @@
 			)
 		)
 		(property "JLCBCB Part" "https://jlcpcb.com/partdetail/Nexperia-74HC14D653/C5605"
-			(at 0 0 0)
+			(at 0 -6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1215,7 +1215,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C5605"
-			(at 0 0 0)
+			(at 0 -6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1224,7 +1224,7 @@
 			)
 		)
 		(property "JLCPCB Basic or Extended" "Basic Part"
-			(at 0 0 0)
+			(at 0 -6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1233,7 +1233,7 @@
 			)
 		)
 		(property "Manufacturer" "Nexperia"
-			(at 0 0 0)
+			(at 0 -6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1242,7 +1242,7 @@
 			)
 		)
 		(property "MFR. Part #" "74HC14D,653"
-			(at 0 0 0)
+			(at -0.254 -6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1251,7 +1251,7 @@
 			)
 		)
 		(property "Category" "Logic"
-			(at 0 0 0)
+			(at 0 -6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1260,7 +1260,7 @@
 			)
 		)
 		(property "Famely" "Inverters"
-			(at 0 0 0)
+			(at 0 -6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1269,7 +1269,7 @@
 			)
 		)
 		(property "Excluded from BOM" "NO"
-			(at 0 0 0)
+			(at 0 -6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4739,7 +4739,7 @@
 		(in_bom no)
 		(on_board yes)
 		(property "Reference" "A"
-			(at 0 9.525 0)
+			(at 0 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4747,7 +4747,7 @@
 			)
 		)
 		(property "Value" "DC-DC 3.3V 3A"
-			(at -0.635 0.635 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4997,7 +4997,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.635 -1.905) (xy -2.413 -1.905) (xy -1.397 -2.286) (xy -1.397 -1.524) (xy -2.413 -1.905)
+					(xy 1.27 -2.54) (xy -1.778 -2.54) (xy -0.762 -2.921) (xy -0.762 -2.159) (xy -1.778 -2.54)
 				)
 				(stroke
 					(width 0.254)
@@ -5010,8 +5010,8 @@
 		)
 		(symbol "DC-DC_Step_Down_3.3V_3A_1_1"
 			(rectangle
-				(start -8.89 8.255)
-				(end 7.62 -10.16)
+				(start -8.89 7.62)
+				(end 8.89 -10.16)
 				(stroke
 					(width 0)
 					(type default)
@@ -5021,7 +5021,7 @@
 				)
 			)
 			(pin power_in line
-				(at 10.16 5.715 180)
+				(at 11.43 5.08 180)
 				(length 2.54)
 				(name "IN+"
 					(effects
@@ -5039,7 +5039,7 @@
 				)
 			)
 			(pin power_in line
-				(at 10.16 3.175 180)
+				(at 11.43 2.54 180)
 				(length 2.54)
 				(name "IN+"
 					(effects
@@ -5057,7 +5057,7 @@
 				)
 			)
 			(pin power_in line
-				(at 10.16 -5.715 180)
+				(at 11.43 -5.08 180)
 				(length 2.54)
 				(name "IN-"
 					(effects
@@ -5075,7 +5075,7 @@
 				)
 			)
 			(pin power_in line
-				(at 10.16 -8.255 180)
+				(at 11.43 -7.62 180)
 				(length 2.54)
 				(name "IN-"
 					(effects
@@ -5093,7 +5093,7 @@
 				)
 			)
 			(pin power_out line
-				(at -11.43 5.715 0)
+				(at -11.43 5.08 0)
 				(length 2.54)
 				(name "OUT+"
 					(effects
@@ -5111,7 +5111,7 @@
 				)
 			)
 			(pin power_out line
-				(at -11.43 3.175 0)
+				(at -11.43 2.54 0)
 				(length 2.54)
 				(name "OUT+"
 					(effects
@@ -5129,7 +5129,7 @@
 				)
 			)
 			(pin power_out line
-				(at -11.43 -5.715 0)
+				(at -11.43 -5.08 0)
 				(length 2.54)
 				(name "OUT-"
 					(effects
@@ -5147,7 +5147,7 @@
 				)
 			)
 			(pin power_out line
-				(at -11.43 -8.255 0)
+				(at -11.43 -7.62 0)
 				(length 2.54)
 				(name "OUT-"
 					(effects
