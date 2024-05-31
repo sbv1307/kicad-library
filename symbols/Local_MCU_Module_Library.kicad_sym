@@ -2985,7 +2985,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Local_MCU_Module_Library:esp32_devkit_v1_doit"
+		(property "Footprint" "Local_MCU_Module_Library:esp32_devkit_v1_doit (F.Mount)"
 			(at 26.67 31.75 0)
 			(effects
 				(font

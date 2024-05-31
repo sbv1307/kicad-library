@@ -177,7 +177,7 @@
 	)
 	(fp_rect
 		(start -16.764 14.654)
-		(end 1.524 -3.634)
+		(end 5.334 -3.634)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -237,7 +237,7 @@
 		(uuid "883128b9-3d33-4a05-a840-4273cc89ded5")
 	)
 	(fp_text user "CS"
-		(at 1.778 8.812 0)
+		(at 2.032 9.652 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "0df62131-a33d-4bcc-8879-b9e89aa9381d")
@@ -250,7 +250,7 @@
 		)
 	)
 	(fp_text user "+3.3V"
-		(at 1.524 11.86 0)
+		(at 1.778 12.192 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "143d787a-2400-45c3-adc7-2efb7652a389")
@@ -263,7 +263,7 @@
 		)
 	)
 	(fp_text user "GND"
-		(at 1.778 -1.348 0)
+		(at 2.032 -0.508 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "2a2e5e3b-6ee5-4fec-b0a1-54c77912f337")
@@ -276,7 +276,7 @@
 		)
 	)
 	(fp_text user "MOSI"
-		(at 1.778 6.272 0)
+		(at 2.032 7.366 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "3ee1e89a-b27a-4116-b921-5d08f2f4715d")
@@ -289,7 +289,7 @@
 		)
 	)
 	(fp_text user "CLK"
-		(at 1.778 3.732 0)
+		(at 2.032 4.826 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "41b20409-2268-4d7b-90bc-68323bf46941")
@@ -302,7 +302,7 @@
 		)
 	)
 	(fp_text user "MISO"
-		(at 1.778 1.192 0)
+		(at 2.032 2.032 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "f0b7caa3-96b7-402f-8b51-a7d30238ae31")
