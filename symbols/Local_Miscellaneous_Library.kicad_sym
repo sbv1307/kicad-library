@@ -1196,6 +1196,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "SOIC-14"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "LibPart" "Local_Miscellaneous_Library:74HC14-local_74HCxx"
 			(at 0 -6.604 0)
 			(effects
@@ -4755,7 +4764,7 @@
 			)
 		)
 		(property "Footprint" "Local_Misckllaneous_Library:DC-DC_3.3V_3A_Stepdown (F.Mount)"
-			(at 5.334 13.462 0)
+			(at 34.29 11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4774,6 +4783,15 @@
 		)
 		(property "Description" "3A Mini DC-DC Buck Step Down Volt Converter 3.3V 5V 9V 12V 15V 24V Power Module"
 			(at 45.72 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)

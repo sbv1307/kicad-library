@@ -490,6 +490,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "0603x4"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "LibPart" "Local_Device_Library:4_DIP_R4.7K"
 			(at 7.5 0 90)
 			(effects
@@ -926,6 +935,15 @@
 		)
 		(property "Description" "16V 100nF X7R ±10% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at -3.5 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1994,6 +2012,15 @@
 		)
 		(property "Description" "Chip Resistor 10k, 1/16W, SMD 0402"
 			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3206,6 +3233,15 @@
 		)
 		(property "Description" "125mW Thick Film Resistors 150V ±1% ±200ppm/℃ 33Ω 0805  Chip Resistor - Surface Mount ROHS"
 			(at -2 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at -2.286 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)

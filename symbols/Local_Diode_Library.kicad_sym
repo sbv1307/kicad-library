@@ -956,6 +956,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "0805"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "LibPart" "Local_Diode_Library:LED_0805_G"
 			(at 0 -4.5 0)
 			(effects
@@ -1181,6 +1190,15 @@
 		)
 		(property "Description" "Red 615~630nm 67~195mcd@20mA Top View 0805 RoHS"
 			(at 0 -4.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1663,6 +1681,15 @@
 		)
 		(property "Description" "40V Single 3A 550mV@3A SMA(DO-214AC)  Schottky Barrier Diodes (SBD) ROHS"
 			(at -1.524 -4.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMA(DO-214AC)"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)

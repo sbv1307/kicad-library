@@ -40,10 +40,11 @@ Name | Value | Show
 ---|---|---
 Reference | A, C, D, J, JP, Q, R, RN, SW or U | [V]
 Value | < Component value > | [V]
-Footprint | < Reference to footprint[^1] > | [V] 
+Footprint | < Reference to footprint in footprint library[^1] > | [V] 
 Datasheet | < Link to Datasheet (Taken form prviders website e.g. [JLCPCB](https://jlcpcb.com/) )> | [V]
 Description | < Text taken from providers website > | [ ]
-Mount Option | F.Mount / B.Mount[^2] | [  ]
+Package | < Text taken from providers website >[^2] | [ ]
+Mount Option | F.Mount / B.Mount[^3] | [  ]
 LibPart | <Refenence to symbol lib, where the symbol is located>  | [ ]
 JLCBCB Part /  Digi-Key Part| < Link to providers website > | [ ]
 JLCPCB Part # /Digi-Key Part # | < Providers part- / ordernumber > | [  ]
@@ -55,5 +56,6 @@ Famely | Chip Resistor - Surface Mount, Ceramic Capacitors... ( taken from provi
 Excluded from BOM | YES / NO ( Generel rule: NO, if it's a [JLCPCB](https://jlcpcb.com/) basic component) | [  ]
 Pinout | < Link to printout or other doc. ( Used for e.g. development boards line arduino )> | [  ]
 
-###### [^1]: Footprint for components, which can be mounted on both sides, the the name is expected to include: (F.Mount) / (B.Mount). 
-###### [^2]: Frontside / Backside mount. For components which can be mounted on both sides e.g. screw terminals.
+###### [^1]: Footprint for components, which can be mounted on both sides, the the name is expected to include: (F.Mount) / (B.Mount).
+###### [^2]: To be used as footprint in the Build Of Materials (BOM) list. 
+###### [^3]: Frontside / Backside mount. For components which can be mounted on both sides e.g. screw terminals.
