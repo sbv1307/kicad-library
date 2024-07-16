@@ -20,7 +20,7 @@ git submodule update --remote Hardware/library
 # To modify Libraries (checklist):
 
 1 Open KiCad project: ..\Projects\kicad-library\kicad-library\kicad-library.kicad_pro
-###### Note:&emsp; This project is an empty project and projectfiles will not be tracked by GIT. <br>&emsp;&emsp;&emsp;&emsp;Remember! in Preferences -> Configure Path... insert: <br>&emsp;&emsp;&emsp;&emsp;KICAD_LOCAL_SYMBOL_DIR = <br>&emsp;&emsp;&emsp;&emsp;C:\Users\Steen\Documents\3 - My OTHER  documents\Projects\kicad-library\symbols <br>&emsp;&emsp;&emsp;&emsp;and <br>&emsp;&emsp;&emsp;&emsp;KICAD_LOCAL_DATASHEETS =<br>&emsp;&emsp;&emsp;&emsp;C:\Users\Steen\Documents\3 - My OTHER  documents\Projects\kicad-library\datasheets
+###### Note:&emsp; This project is an empty project and projectfiles will not be tracked by GIT. <br>&emsp;&emsp;&emsp;&emsp;Remember! in Preferences -> Configure Path... insert: <br>&emsp;&emsp;&emsp;&emsp;KICAD_LOCAL_SYMBOL_DIR = <br>&emsp;&emsp;&emsp;&emsp;C:\Users\Steen\Documents\3 - My OTHER  documents\Projects\kicad-library\symbols <br>&emsp;&emsp;&emsp;&emsp;and <br>&emsp;&emsp;&emsp;&emsp;KICAD_LOCAL_DATASHEETS =<br>&emsp;&emsp;&emsp;&emsp;C:\Users\Steen\Documents\3 - My OTHER  documents\Projects\kicad-library\datasheets <br>&emsp;&emsp;&emsp;&emsp;and <br>&emsp;&emsp;&emsp;&emsp;KICAD_LOCAL_FOOTPRINT_DIR =<br>&emsp;&emsp;&emsp;&emsp;C:\Users\Steen\Documents\3 - My OTHER documents\Projects\kicad-library\footprints
 
 2 Make modifications to the Library and exit KiCad
 
@@ -56,6 +56,20 @@ Famely | Chip Resistor - Surface Mount, Ceramic Capacitors... ( taken from provi
 Excluded from BOM | YES / NO ( Generel rule: NO, if it's a [JLCPCB](https://jlcpcb.com/) basic component) | [  ]
 Pinout | < Link to printout or other doc. ( Used for e.g. development boards line arduino )> | [  ]
 
+**Note** Remember to set 
+
 ###### [^1]: Footprint for components, which can be mounted on both sides, the the name is expected to include: (F.Mount) / (B.Mount).
 ###### [^2]: To be used as footprint in the Build Of Materials (BOM) list. 
 ###### [^3]: Frontside / Backside mount. For components which can be mounted on both sides e.g. screw terminals.
+
+## Notes to creating BOM and Centroid file (CPL)
+#### BOM
+In KiCad Schemnatic Editor: 'Generate Bioll of materials (BOM)
+- Edit -> show: Reference, Value (check 'Group by'), Package and JLCPCB Part #
+- Export to file
+- After export, change:
+- -  'Reference' to 'Comment'
+- -  'Value' to 'Designator'
+- -  'Package' to 'Footpring'
+- -  'JLCPCB Part #' to 'LCSC part number'
+
