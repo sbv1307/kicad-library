@@ -3716,7 +3716,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Local_MCU_Module_Library:NODEMCU DEVKIT V0.9"
+		(property "Footprint" "Local_MCU_Module_Library:NodeMCU Devkit V0.9 (F.Mount)"
 			(at 6.35 0 0)
 			(effects
 				(font
