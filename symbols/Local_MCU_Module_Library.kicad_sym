@@ -3690,7 +3690,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "NodeMCU_0.9-nodemcu"
+	(symbol "NodeMCU Devkit V0.9"
 		(pin_numbers
 			(hide yes)
 		)
@@ -3708,7 +3708,7 @@
 				)
 			)
 		)
-		(property "Value" "NodeMCU_0.9-nodemcu"
+		(property "Value" "NodeMCU Devkit V0.9"
 			(at 0 -21.59 0)
 			(effects
 				(font
@@ -3779,7 +3779,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "NodeMCU_0.9-nodemcu_0_1"
+		(symbol "NodeMCU Devkit V0.9_0_1"
 			(rectangle
 				(start -7.62 17.907)
 				(end -6.096 17.653)
@@ -4122,7 +4122,7 @@
 				)
 			)
 		)
-		(symbol "NodeMCU_0.9-nodemcu_1_1"
+		(symbol "NodeMCU Devkit V0.9_1_1"
 			(rectangle
 				(start -7.62 19.05)
 				(end 7.62 -19.05)

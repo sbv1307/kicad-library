@@ -1,10 +1,10 @@
-(footprint "NODEMCU DEVKIT V0.9"
+(footprint "NodeMCU Devkit V0.9 (F.Mount)"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 14.986 -6.858 0)
+		(at 15 3.1 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "ba285dc9-61f0-4cab-87b9-192f86e2eff6")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "NODEMCU DEVKIT V0.9"
+	(property "Value" "NodeMCU Devkit V0.9 (F.Mount)"
 		(at 14.478 10.16 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -55,28 +55,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -3.175 -5.715)
-		(end -1.27 -5.715)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "4ab331a7-4a70-40d5-8bb2-56eeef382344")
-	)
-	(fp_line
-		(start -3.175 -3.965)
-		(end -3.175 -5.715)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "11486d0c-e5f7-41f6-b074-45c2d9db675c")
-	)
-	(fp_line
-		(start -2.543275 -1.905)
-		(end -2.54 40.64)
+		(start -1.779637 -1.905)
+		(end -1.776362 40.64)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -85,8 +65,8 @@
 		(uuid "05b595c9-3f12-49a6-8f10-c13468ee9822")
 	)
 	(fp_line
-		(start -2.54 40.64)
-		(end 0 43.18)
+		(start -1.778 40.64)
+		(end 0.762 43.18)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -115,8 +95,8 @@
 		(uuid "a35f9318-f269-4202-bc55-1c8d8e17aee5")
 	)
 	(fp_line
-		(start 0 43.18)
-		(end 27.94 43.18)
+		(start 0.762 43.18)
+		(end 27.165175 43.18)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -125,8 +105,8 @@
 		(uuid "c0997370-cf78-4d2e-afe7-75fcc11d8aa8")
 	)
 	(fp_line
-		(start 0.129026 -4.445)
-		(end 27.940001 -4.445)
+		(start 0.892664 -4.445)
+		(end 27.159949 -4.445)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -505,8 +485,8 @@
 		(uuid "a0f4639c-768d-47f5-be9e-502761e26feb")
 	)
 	(fp_line
-		(start 30.48 -1.905)
-		(end 30.50565 40.64)
+		(start 29.705175 -1.905)
+		(end 29.730825 40.64)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -515,8 +495,8 @@
 		(uuid "b60316a9-b162-42f5-ae99-4c311c71d3d8")
 	)
 	(fp_line
-		(start 30.50565 40.64)
-		(end 27.94 43.18)
+		(start 29.730825 40.64)
+		(end 27.165175 43.18)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -525,9 +505,9 @@
 		(uuid "f7fa5026-ff23-4c6f-9131-1a204059d98a")
 	)
 	(fp_arc
-		(start -2.543275 -1.905)
-		(mid -1.798367 -3.703367)
-		(end 0 -4.448275)
+		(start -1.779637 -1.905)
+		(mid -1.034729 -3.703367)
+		(end 0.763638 -4.448275)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -536,9 +516,9 @@
 		(uuid "c1abdab2-de32-4ca5-9c31-36b51857c507")
 	)
 	(fp_arc
-		(start 27.940001 -4.445)
-		(mid 29.736052 -3.701051)
-		(end 30.480001 -1.905)
+		(start 27.159949 -4.445)
+		(mid 28.956 -3.701051)
+		(end 29.699949 -1.905)
 		(stroke
 			(width 0.1)
 			(type solid)
