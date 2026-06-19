@@ -5281,7 +5281,7 @@
 				)
 			)
 		)
-		(property "Value" "R2,2K"
+		(property "Value" "R2.2K"
 			(at 0 0 90)
 			(show_name no)
 			(do_not_autoplace no)
